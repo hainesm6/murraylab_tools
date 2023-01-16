@@ -1778,7 +1778,7 @@ class SourcePlate():
         Current logic is as follows: Scan from the top-left corner to the
         bottom-right corner, left to right, top to bottom, for a consecutive set
         of wells separated from used wells by a buffer well on the right and a
-        buffer welll on the right. Assign the first block run across. If the
+        buffer well on the right. Assign the first block run across. If the
         number of wells requested is smaller than the number of wells per row,
         also require that the entire block be able to fit in one row.
         '''
